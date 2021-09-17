@@ -25,3 +25,4 @@ server {
 ## Notes
 - Do not use this in production. See [here](https://flask.palletsprojects.com/en/2.0.x/tutorial/deploy/).
 - I am not going to post installation step by step. You need to have a basic understanding of how to use nginx.
+- Feel free to PR in case you find a better way of doing things. Thanks!
