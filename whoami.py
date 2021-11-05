@@ -20,7 +20,7 @@ def beautify_time(date1, date2, *, approx=None):
         return 'waiting...'
 
     relative = relativedelta(date1, date2)
-    attrs = approx or ['days', 'months', 'years']
+    attrs = approx or ['years', 'months', 'days']
     for attr in attrs:
         r = getattr(relative, attr)
         if r:
